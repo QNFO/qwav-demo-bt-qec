@@ -48,6 +48,13 @@ window._demo.tree.getRedundancy(3)         // 8 (p=2)
 window._demo.tree.getErrorSubtree(2).size  // 7
 ```
 
+
+## Screenshots (from the Chrome automated test suite)
+
+| Tree geometry | Redundancy curve | Mobile |
+|:--------------|:-----------------|:-------|
+| ![tree](screenshots/view-tree.png) | ![curve](screenshots/view-curve.png) | ![mobile](screenshots/view-mobile.png) |
+
 ## Deployment
 
 Native GitHub Pages (gh-pages branch). Update: `git checkout gh-pages && git add index.html && git commit -m "update" && git push origin gh-pages`. No CI config.
